@@ -62,6 +62,7 @@ const config: PlaywrightTestConfig = {
         ['html', {
             open: "always"
         }] // -> HTML
+        ["allure-playwright"]
     ],
     // globalTeardown: './helper/globalsetup.ts'
 }
