@@ -20,7 +20,7 @@ test.describe("Suite demo", () => {
             page.click('text=/.*Log in.*/')
         ]);
         await page.click('input[name="email"]');
-        await page.fill('input[name="email"]', 'koushik350@gmail.com');
+        await page.fill('input[name="email"]', 'prabhatjha1399@gmail.com');
         await page.fill('input[name="password"]', 'Pass123$');
         await Promise.all([
             page.waitForNavigation(/*{ url: 'https://letcode.in/' }*/),
