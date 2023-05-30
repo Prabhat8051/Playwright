@@ -61,8 +61,8 @@ const config: PlaywrightTestConfig = {
         ["json", { outputFile: "test-result.json" }], //  -> JSON
         ['html', {
             open: "always"
-        }], // -> HTML
-        ["allure-playwright"]
+        }] // -> HTML
+        
     ],
     // globalTeardown: './helper/globalsetup.ts'
 }
